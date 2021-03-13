@@ -6,6 +6,7 @@ This is a blackjack game from the Udemy python course. This will be scripted in 
 
 Clone this repository:
 ```
+git clone git@github.com:RTurney/Blackjack.git
 ```
 Cd into the Ruby folder and run bundle install
 ```
