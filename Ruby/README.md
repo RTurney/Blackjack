@@ -115,6 +115,4 @@ First batch of tests:
 * ~~Player class has an empty array on initialisation~~
 * ~~Player class has a score of zero upon initialisation~~
 * ~~Player.hand can receive two cards~~
-* Dealer class has an empty hand
-* Dealer class has a score of zero
 * Game class can compare player and dealers score  
