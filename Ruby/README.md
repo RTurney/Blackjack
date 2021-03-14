@@ -40,7 +40,17 @@ I would like to be able to get a hand of two cards.
 ```
 As a player,
 So that I can know how good my hand is,
-I would like to know what cards I have in my hand.
+I would like to see what cards I have in my hand.
+```
+```
+As a player,
+So that I know what cards I have,
+I would like cards to have a house and a number.
+```
+```
+As a player,
+So that each game is different,
+I would like to receive random cards from the deck.
 ```
 ```
 As a player,
@@ -55,12 +65,12 @@ I would like the option to hit.
 ```
 As a player,
 So that I don't go bust,
-I would like the option to stick
+I would like the option to stick.
 ```
 ```
 As a player,
 So that I don't play by myself,
-I would like the dealer to have a hand also
+I would like the dealer to have a hand also.
 ```
 ```
 As a player,
@@ -80,5 +90,21 @@ I would like the option to quit after a round.
 
 ## Model
 
+For now, I will link to my domain model template on google docs.
+I will come back and insert images here so that the model is observable from the README.
+
+https://docs.google.com/document/d/1NJ6p5wJWPVfUVnn2JPAx4TwR7bY-vG_6oIbkXvaJ79g/edit
+
+## Minimum Viable Product
+
+The minimum viable product is that a player can play a game of blackjack, whereby they are given a random score, they can then either hit or stick to gain score, which is compared against the dealer's random score. 
+
+Key features:
+* User is given a random score
+* dealer has a random score
+* A way of comparing the scores
+* a message is returned to the player with win/loss
+* a player can hit or stick giving a random amount to their score/hand
+* a player automatically loses if their score goes above 21
 
 ## Tests
