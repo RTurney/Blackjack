@@ -2,6 +2,6 @@
 class Card
 
   def deal
-    2
+    rand(2..11)
   end
 end
