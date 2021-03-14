@@ -110,11 +110,11 @@ Key features:
 ## Tests
 
 First batch of tests:
-* Cards class returns a number
-* Cards class returns a random number between 1 and 11
-* Player class has an empty array on initialisation
-* Player class has a score of zero upon initialisation
-* Player.hand can receive two cards
+* ~~Cards class returns a number~~
+* ~~Cards class returns a random number between 1 and 11~~
+* ~~Player class has an empty array on initialisation~~
+* ~~Player class has a score of zero upon initialisation~~
+* ~~Player.hand can receive two cards~~
 * Dealer class has an empty hand
 * Dealer class has a score of zero
 * Game class can compare player and dealers score  

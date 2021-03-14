@@ -12,10 +12,6 @@ class Player
   end
 
   def calculate_score
-    sum = 0
-    hand.each do |number|
-      sum += number
-    end
-    sum
+    hand.inject { |sum, number| sum + number }
   end
 end
