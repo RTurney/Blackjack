@@ -8,11 +8,7 @@ require_relative './player'
    end
 
    def compare_hands
-     if @player.score > @dealer.score
-       'Player'
-     else
-       'dealer'
-     end
+     @player.score > @dealer.score ? 'player' : 'dealer'
    end
 
  end
