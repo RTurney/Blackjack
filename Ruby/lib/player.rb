@@ -9,6 +9,7 @@ class Player
 
   def receive_cards(card)
     hand.push(card)
+    calculate_score
   end
 
   def calculate_score
