@@ -97,7 +97,7 @@ https://docs.google.com/document/d/1NJ6p5wJWPVfUVnn2JPAx4TwR7bY-vG_6oIbkXvaJ79g/
 
 ## Minimum Viable Product
 
-The minimum viable product is that a player can play a game of blackjack, whereby they are given a random score, they can then either hit or stick to gain score, which is compared against the dealer's random score. 
+The minimum viable product is that a player can play a game of blackjack, whereby they are given a random score, they can then either hit or stick to gain score, which is compared against the dealer's random score.
 
 Key features:
 * User is given a random score
@@ -108,3 +108,13 @@ Key features:
 * a player automatically loses if their score goes above 21
 
 ## Tests
+
+First batch of tests:
+* Cards class returns a number
+* Cards class returns a random number between 1 and 11
+* Player class has an empty array on initialisation
+* Player class has a score of zero upon initialisation
+* Player.hand can receive two cards
+* Dealer class has an empty hand
+* Dealer class has a score of zero
+* Game class can compare player and dealers score  
